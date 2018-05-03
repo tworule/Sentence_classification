@@ -19,10 +19,10 @@ stop_words = set(stopwords.words('english'))
 
 
 # CREATE DISTANCE MATRIX
-food_row = model.most_similar(positive=['food'],topn=100000000000000000000000000000000000)
-service_row = model.most_similar(positive=['service'],topn=100000000000000000000000000000000000)
-ambience_row = model.most_similar(positive=['ambience'],topn=100000000000000000000000000000000000)
-value_row = model.most_similar(positive=['value'],topn=100000000000000000000000000000000000)
+food_row = model.most_similar(positive=['food'],topn=10000**10000)
+service_row = model.most_similar(positive=['service'],topn=10000**10000)
+ambience_row = model.most_similar(positive=['ambience'],topn=10000**10000)
+value_row = model.most_similar(positive=['value'],topn=10000**10000)
 
 col_name_list = []
 col_value_list = []
